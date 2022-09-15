@@ -3,18 +3,30 @@
     background-color: rgb(44, 44, 44);
   }
   
-
+/* Main Page */
 .title,
 .statement {
     text-align: center;
   }
 
 div {
-  display: flex;
   list-style: none;
   justify-content: center;
 }
 
 .image {
-  margin: 30px;
+  margin: auto;
 }
+
+.recipes {
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Recipe Pages */
